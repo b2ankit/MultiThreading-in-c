@@ -1,7 +1,6 @@
 /**********************************************************************************************************
- 1. Calculate the even and odd sum of large number and calculate timeLaps
- 2. Code is run only with the help of only main thread. So it take more time (i.e 6sec);
- 3. same program distributted among more thread the time will be reduce.
+ 1. Calculate the even and odd sum of large number and calculate timeLap
+ 2. same program distributted among more thread the time will be reduce.
  *********************************************************************************************************/
 
 #include<stdio.h>
