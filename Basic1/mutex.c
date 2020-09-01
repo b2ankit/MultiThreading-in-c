@@ -9,7 +9,7 @@
 #include<pthread.h>
 
 //Mutex decalaration
-pthread_mutex_t lock;
+pthread_mutex_t lock = PTHREAD_MUTEX_INITIALIZER;
 
 int count = 0;
 
@@ -30,8 +30,8 @@ int main(){
     pthread_t th5;
     pthread_t th6;
 
-    /*Mutex init*/
-    pthread_mutex_init(&lock,NULL);
+    // /*Mutex init*/
+    // pthread_mutex_init(&lock,NULL);
 
     //creating threading 1
     pthread_create(&th1,NULL,increase_count,NULL);
